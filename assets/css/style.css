@@ -7,7 +7,7 @@ body {
 }
 
 header .line {
-    background-color: #117050;
+    background-color: lightblue;
     height: 10px;
 }
 
@@ -19,7 +19,7 @@ header .line {
 .bar {
     height: 22px;
     width: 168px;
-    background-color: #006341;
+    background-color: lightblue;
 }
 
 h1 {
@@ -40,11 +40,11 @@ h2 {
 }
 
 .button {
-    border: 2px solid #454545;
+    border: 2px solid lightblue;
     display: inline-block;
     padding: 10px 30px;
     border-radius: 3px;
-    color: #454545;
+    color: lightblue;
     text-decoration: none;
     transition: all 0.5s ease-in-out;
     margin-top: 50px;
@@ -52,7 +52,7 @@ h2 {
 
 .button:hover {
     color: white;
-    background-color: #454545;
+    background-color: lightblue;
     transition: all 0.5s ease-in-out;
 }
 
@@ -120,7 +120,7 @@ h2 {
     margin-top: 60px;
     width: 148px;
     height: 148px;
-    border: 6px solid #117050;
+    border: 6px solid lightblue;
     border-radius: 50%;
     margin-right: 40px;
 }
@@ -145,13 +145,13 @@ h2 {
 
 .area1--img1 {
     height: 350px;
-    background-image: url('../img/f2.jpg');
+    background-image: url('../img/img2.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .area1--img2 {
-    background-image: url('../img/f1.jpg');
+    background-image: url('../img/img1.jpg');
     background-position: center;
     background-size: cover;
     grid-column: 2 / 3;
@@ -238,8 +238,8 @@ h2 {
     height: 700px;
 }
 footer {
-    background-color: #333;
-    color: #FFF;
+    background-color: lightblue;
+    color: gray;
     padding: 80px;
     text-align: center;
 }
@@ -277,7 +277,7 @@ footer {
         width: 80px;
         height: 80px;
         margin-right: 20px;
-        border: 3px solid #117050;
+        border: 3px solid lightblue;
     }
     .header--search {
         max-width: 150px;
