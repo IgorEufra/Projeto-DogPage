@@ -7,10 +7,9 @@ body {
 }
 
 header .line {
-    background-color: lightblue;
+    background-color: #FEE0B6;
     height: 10px;
 }
-
 .container {
     max-width: 1140px;
     margin: auto;
@@ -19,9 +18,13 @@ header .line {
 .bar {
     height: 22px;
     width: 168px;
-    background-color: lightblue;
+    background-color: #FEE0B6;
+    transition: all 1.5s ease-in-out;
 }
-
+.bar:hover {
+    width: 100%;
+    transition: all 1.5s ease-in-out;
+}
 h1 {
     font-size: 96px;
     font-family: "Oswald", "sans-serif";
@@ -40,11 +43,11 @@ h2 {
 }
 
 .button {
-    border: 2px solid lightblue;
+    border: 2px solid #FEE0B6;
     display: inline-block;
     padding: 10px 30px;
     border-radius: 3px;
-    color: lightblue;
+    color: #FEE0B6;
     text-decoration: none;
     transition: all 0.5s ease-in-out;
     margin-top: 50px;
@@ -52,7 +55,7 @@ h2 {
 
 .button:hover {
     color: white;
-    background-color: lightblue;
+    background-color: #FEE0B6   ;
     transition: all 0.5s ease-in-out;
 }
 
@@ -64,8 +67,8 @@ h2 {
 }
 
 .header-left img {
-    width: 64px;
-    height: 64px;
+    width: 90px;
+    height: 90px;
 }
 
 .header--search form {
@@ -109,7 +112,7 @@ h2 {
 }
 
 .banner {
-    background-image: url("../img/bg.jpg");
+    background-image: url("../img/bg_pet.png");
     background-position: center;
     background-size: cover;
     padding-top: 96px;
@@ -120,13 +123,14 @@ h2 {
     margin-top: 60px;
     width: 148px;
     height: 148px;
-    border: 6px solid lightblue;
+    border: 6px dotted #FEE0B6;
     border-radius: 50%;
     margin-right: 40px;
 }
 
 .area1 {
     display: grid;
+    border-top: 10px solid #FEE0B6;
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -145,13 +149,13 @@ h2 {
 
 .area1--img1 {
     height: 350px;
-    background-image: url('../img/img2.jpg');
+    background-image: url('../img/foto2.png');
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .area1--img2 {
-    background-image: url('../img/img1.jpg');
+    background-image: url('../img/f1.png');
     background-position: center;
     background-size: cover;
     grid-column: 2 / 3;
@@ -160,6 +164,7 @@ h2 {
 
 .area2 {
     display: grid;
+    border-top: 10px solid #FEE0B6;
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -174,13 +179,13 @@ h2 {
 
 .area2--img1 {
     height: 450px;
-    background-image: url('../img/f4.jpg');
+    background-image: url('../img/cat-3269765_1280.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .area2--img2 {
-    background-image: url('../img/f3.jpg');
+    background-image: url('../img/9aw27vpsvhla1.jpeg');
     background-position: center;
     background-size: cover;
     grid-column: 1 / 2;
@@ -189,6 +194,7 @@ h2 {
 
 .area3 {
     display: grid;
+    border-top: 10px solid #FEE0B6;
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -208,16 +214,17 @@ h2 {
 .area3--img1 {
     max-width: 100%;
     height: 770px;
-    background-image: url('../img/f5.jpg');
+    background-image: url('../img/AdobeStock_201873478.jpeg');
     background-size: cover;
     background-position: center;
 }
 .area4 {
     display: grid;
+    border-top: 10px solid #FEE0B6;
     grid-template-columns: 400px 1fr;
 }
 .area4--content {
-    background-color: #e8e9ee;
+    background-color: #FFF;
     padding: 80px;
 }
 
@@ -228,20 +235,33 @@ h2 {
 .area4--img1 {
     max-width: 100%;
     height: 770px;
-    background-image: url('../img/bg3.jpg');
-    background-position: left;
+    background-image: url('../img/porquinho1.png');
+    background-position: center;
+    background-size: cover;
 }
 .area5 {
-    background-image: url('../img/bg4.jpg');
+    border-top: 10px solid #FEE0B6;
+    background-image: url('../img/capasafariaves.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top;
     height: 700px;
+    border-bottom: 10px solid #fee0b6; 
 }
-footer {
-    background-color: lightblue;
+footer { 
+    background-color: #FEE0B6;
     color: gray;
     padding: 80px;
     text-align: center;
+    font-weight: bold;
+}
+footer a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.5s ease-in-out;
+}
+footer a:hover {
+    color:white;
+    transition: all 0.5s ease-in-out;
 }
 @media (min-width: 769px) and (max-width: 1139px) {
     .container {
