@@ -200,6 +200,7 @@ h2 {
 
 .area3--content {
     background-image: url('../img/bg2.jpg');
+    opacity: 50%;
     background-size: cover;
     background-position: left;
     justify-content: center;
